@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    image: ghcr.io/kitarobenaya/pkplp_portofolio_website:main
+    container_name: pkplp-website
+    ports:
+      - "80:80"
+    restart: always
